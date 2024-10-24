@@ -1,2 +1,10 @@
-# IP-Set-Script
-Below is the shell script that configures network interfaces using netplan in Ubuntu. It allows users to choose between DHCP and static IP configuration and optionally delete existing netplan configurations.
+# Network Configuration Script
+
+This script allows you to configure network interfaces on an Ubuntu server using netplan. You can choose between DHCP and static IP configurations and optionally delete existing netplan configurations.
+
+## Prerequisites
+
+- Ensure that the `dialog` tool is installed on your system:
+  
+```bash
+sudo apt install dialog
