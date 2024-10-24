@@ -1,6 +1,4 @@
-Hier ist die aktualisierte README-Datei mit einem detaillierten Abschnitt zur Nutzung des Skripts:
 
-```markdown
 # Network Configuration Script
 
 This script allows you to configure network interfaces on an Ubuntu server using netplan. You can choose between DHCP and static IP configurations and optionally delete existing netplan configurations.
@@ -11,7 +9,6 @@ This script allows you to configure network interfaces on an Ubuntu server using
 
   ```bash
   sudo apt install dialog
-  ```
 
 ## Installation
 
@@ -54,6 +51,3 @@ Contributions are welcome! Please fork this repository and submit a pull request
 ## License
 
 This project is licensed under the MIT License.
-```
-
-In dieser README-Datei wird der Abschnitt "Usage" detailliert beschrieben, wie das Skript verwendet wird, einschließlich der Schritte zur Auswahl der Netzwerkschnittstelle und der verfügbaren Menüoptionen. Dies sollte den Benutzern helfen, das Skript effizient zu nutzen.
